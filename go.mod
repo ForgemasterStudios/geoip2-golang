@@ -1,6 +1,6 @@
 module github.com/oschwald/geoip2-golang
 
-go 1.21
+go 1.23.3
 
 require (
 	github.com/oschwald/maxminddb-golang v1.13.0
@@ -13,3 +13,5 @@ require (
 	golang.org/x/sys v0.20.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace golang.org/x/sys => golang.org/x/sys v0.27.0
